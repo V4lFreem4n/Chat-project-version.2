@@ -1,0 +1,45 @@
+.pantalla{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #CAF6FE;
+  }
+  
+  #lienzo{
+    resize: none;
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+  }
+  
+  .input-texto{
+    display: fixed;
+    position: absolute;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;  
+  }
+
+  #input{
+        resize: none;
+        width: calc(90%); /* Ancho fijo */
+        height: 50px; /* Altura inicial */
+        max-height: 200px; /* Altura máxima */
+        overflow-y: scroll; /* Scroll vertical */
+        display: flex; /* Centrar el texto horizontal y verticalmente */
+        align-items: center;
+        justify-content: center;
+  }
+
+  .input-texto-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #enviar {
+    right: 0;
+    position: absolute;
+    width: calc(10% - 5px); 
+    height: 100%;
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "ws-browserify",
+  "version": "1.0.0",
+  "description": "ws for the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graingert/ws-browserify.git"
+  },
+  "author": "Thomas Grainger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graingert/ws-browserify/issues"
+  },
+  "homepage": "https://github.com/graingert/ws-browserify#readme"
+}
