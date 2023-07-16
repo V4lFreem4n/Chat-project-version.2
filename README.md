@@ -20,3 +20,6 @@ function generateRandomString(length) {
   }
   
   Finalmente, el servidor registra los mensajes entrantes y los coloca en el div del html del cliente, se guardan los mensajes en una array y se devuelve el JSON al cliente para que posteriormente cada uno vea su mensaje al lado derecho de la pantalla, y el de los demás clintes al lado izquierdo.
+
+AUTOR: V A P P
+UNIVERSIDAD: UTP
